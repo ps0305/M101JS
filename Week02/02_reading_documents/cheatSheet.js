@@ -2,7 +2,7 @@
 db.collection.find({ year: 2018}).count();
 
 //Accessing nested property
-db.collectio.find({ "object.Address" : "Bangalore"}).count //key must be in quotes
+db.collection.find({ "object.Address" : "Bangalore"}).count //key must be in quotes
 
 //finding scaler nested objects
 db.collection.find ({ "directors" : ["Anurag kashyap", "Ram gopal varma"]}).count()
