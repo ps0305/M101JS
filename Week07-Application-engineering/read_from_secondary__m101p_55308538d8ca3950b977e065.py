@@ -18,7 +18,15 @@ for i in range(1000):
     time.sleep(.1)
 
                         
+'''You can configure your application vai the drivers to read from secondary nodes within a replica set.What are the reasons that you might not 
+want to do that? write all that apply.
 
+1-if your write traffic is great enough,and your secondary is less powerful than the primary,you may overwhelm the secondary,which must process all the
+writes as well as the reads.Replication  lag can result
+
+2-You may not read what you previously wrote to MongoDB on a secondary because it will lag behind by some amount.
+
+3-If the secondary hardware has insuffieient memory to keep the working set in memory,directing reads to it will likely slow it down.'''
 
 
 
