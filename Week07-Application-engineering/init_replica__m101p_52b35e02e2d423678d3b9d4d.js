@@ -11,4 +11,9 @@ rs.initiate(config);
 rs.status();
 
 
+//Which command, when issued from the mongo shell, will allow you to read from a secondary?
+
+* rs.slaveOk()
+
+
 
